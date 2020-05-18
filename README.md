@@ -14,7 +14,7 @@ The Database Schema above showing 5 tables:
 4. artists: has information about the artist of a song.
 5. time: has information about when a song has been playing.
 
-## ETL pipeline for Songs and artists:
+## ETL pipeline for songs and artists:
 1. I extract the song data by pandas from JSON file to DataFrame from this path : 		    
 data/song_data/A/A/A/TRAAAAW128F429D538.json 
 2. Select the requird cloumns from the DataFram which are: song_id, title, artist_id,  year, duration
